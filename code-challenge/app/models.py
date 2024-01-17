@@ -20,3 +20,7 @@ class HeroPower(db.Model):
     hero_id = db.Column(db.Integer, db.ForeignKey('hero.id'), nullable=False)
     power_id = db.Column(db.Integer, db.ForeignKey('power.id'), nullable=False)
     strength = db.Column(db.String(50), nullable=False)
+
+
+
+
